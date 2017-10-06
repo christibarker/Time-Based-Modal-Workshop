@@ -1,5 +1,6 @@
 body {
 	font-family: cursive;
+	color: navy;
 }
 
 /*.....css for header*/
@@ -25,6 +26,37 @@ body {
 }
 /*.header-overlay h1{
 	padding-left: 10px;*/
+
+/*...for modal*/
+.modal{
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+ 	left: 20%;
+ 	top: 27%;
+}
+
+.modal-content {
+	background-color: pink;
+	border: solid;
+	height: 260px;
+	width: 850px;
+	display: inline-block;
+	text-align: center;
+	font-size: 25px;
+}
+
+.close{
+	float: right;
+	font-weight: bold;
+	color: gray;
+	font-size: 28px; 
+	margin-right: 10px;
+}
+
 
 /*.....for paragraph*/
 .content {
