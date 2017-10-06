@@ -1,0 +1,57 @@
+body {
+	font-family: cursive;
+}
+
+/*.....css for header*/
+.header {
+	width:100%;
+	height:500px;
+/*	background-color: grey;*/
+	overflow: hidden;
+}
+.header-img img{
+	width: 100%;
+}
+.header-overlay {
+	font-size: 60px;
+	background: black;
+	opacity: 0.4;
+	position: relative;
+	bottom: 50%;
+	color: white;
+	width: 100%;
+	height: 500px;
+	box-sizing: border-box;
+}
+/*.header-overlay h1{
+	padding-left: 10px;*/
+
+/*.....for paragraph*/
+.content {
+	text-align: center;
+	
+}
+
+.paragraph_one {
+	margin-bottom: 20px;
+	background: lightgray;
+}
+
+.paragraph_two {
+	margin-top: 10px;
+	background: lightgray;
+}
+
+/*....for resources*/
+
+.resources {
+	text-align: center;
+}
+
+/*....for movies*/
+.video{
+	text-align: center;
+
+}
+
+
