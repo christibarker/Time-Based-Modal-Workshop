@@ -51,30 +51,39 @@ div#text {
 
 /*.....for paragraph*/
 .content {
-	text-align: center;
+	width: 1295px;
+	margin-left: 5%;
+	font-size: 20px;
 	
+}
+
+.bold {
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
 }
 
 .paragraph_one {
 	margin-bottom: 20px;
-	background: #5c6dc0;
+	background: #c5cae9;
 }
 
 .paragraph_two {
 	margin-top: 10px;
-	background: #5c6dc0;
+	background: #c5cae9;
 }
 
+.paragraph_three {
+	margin-top: 10px;
+	background: #c5cae9;
+}
 /*....for resources*/
 
 .resources {
 	text-align: center;
+	font-weight: bold;
 }
 
-/*....for movies*/
-.video{
+.video {
 	text-align: center;
-
 }
-
-
